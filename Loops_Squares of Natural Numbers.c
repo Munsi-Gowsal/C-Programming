@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int N;
+    scanf("%d" ,&N);
+       for(int j=1;j<=N;++j){
+         printf("%d " ,j*j);
+      }printf("\n");
+    return 0;
+}
